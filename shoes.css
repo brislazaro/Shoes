@@ -41,20 +41,20 @@ body {
   gap: 12px;
 }
 
-.shoes {
-  height: 60vh;
+.product__image {
+  width: 100%;
+  max-height: 350px;
 }
 
-.price {
+.product__price {
   font-weight: 900;
 }
 
-.button {
+.product__button {
   align-items: center;
   background-color: #fee6e3;
   border: 2px solid #111;
   border-radius: 8px;
-  box-sizing: border-box;
   color: #111;
   cursor: pointer;
   display: flex;
@@ -64,7 +64,7 @@ body {
   justify-content: center;
   line-height: 24px;
   max-width: 100%;
-  padding: 0 25px;
+  padding: 0 24px;
   position: relative;
   text-align: center;
   text-decoration: none;
