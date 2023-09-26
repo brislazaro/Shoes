@@ -53,6 +53,7 @@ for (let i = 0; i < inventory.length; i++) {
   const buttonEl = document.createElement("button");
   buttonEl.classList.add("product__button");
   buttonEl.innerHTML = "Añadir al carrito";
+  buttonEl.addEventListener("click", window.open("cart.html"));
 
   productItemEl.appendChild(productImageEl);
   productItemEl.appendChild(productNameEl);
