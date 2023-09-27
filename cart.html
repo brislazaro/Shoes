@@ -7,16 +7,41 @@
   </head>
   <body>
     <header class="header">
-      <p>Zapatos para Dama de temporada</p>
+      <h1 class="header__title">Zapatos para Dama de temporada</h1>
+      <a class="header__link" href="./shoes.html">go prod</a>
     </header>
     <main class="page-container">
       <div class="cart">
         <h1 class="cart-title">Articulos añadidos al Carrito</h1>
         <ul class="cart__products">
-          <li>articulo1</li>
-          <li>articulo1</li>
-          <li>articulo1</li>
-          <li>articulo1</li>
+          <li class="products__item">
+            <img class="item__img" src="./imagenes/shoe1.webp" />
+            <div class="item__info">
+              <p>Mocasines negros</p>
+              <p>18 euros</p>
+              <p>Quantity: 1</p>
+              <div class="flex-grow"></div>
+
+              <div class="info__button">
+                <button class="item__button">-1</button>
+                <button class="item__button">+1</button>
+              </div>
+            </div>
+          </li>
+          <li class="products__item">
+            <img class="item__img" src="./imagenes/shoe1.webp" />
+            <div class="item__info">
+              <p>Mocasines negros</p>
+              <p>18 euros</p>
+              <p class="item__price">Quantity: 1</p>
+              <div class="flex-grow"></div>
+
+              <div class="info__button">
+                <button class="item__button">-1</button>
+                <button class="item__button">+1</button>
+              </div>
+            </div>
+          </li>
         </ul>
 
         <button class="cart__button">Comprar</button>
@@ -26,5 +51,8 @@
         <p>25 Euros</p>
       </div>
     </main>
+
+    <script src="./sharedData.js"></script>
+    <script src="./cart.js"></script>
   </body>
 </html>
