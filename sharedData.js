@@ -31,4 +31,10 @@ const inventory = [
   },
 ];
 
-const cart = [];
+let cart = [];
+
+const persistedCart = JSON.parse(localStorage.getItem("cart"));
+
+if (persistedCart) {
+  cart = persistedCart;
+}
